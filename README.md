@@ -1,5 +1,5 @@
 ## BioCroBML
-PUT AN OVERVIEW OF THE MODULE LIBRARY HERE
+BioCroBML is a module library that contains updated partitioning and senescence modules that can be used with BioCro modules to simulate dynamics of miscanthus over a growing season. An R script file called "Miscanthus partitioning singlesite calibration" in BioCroBML/calibrations/miscanthus/code/ is updated with initial values, parameters, and module lists necessary to run the partitioning model in BioCro and using three modules from BioCroBML. This skelBML was organized by Kacey Estrella in Nov 2025.
 
 ### Installation
 
