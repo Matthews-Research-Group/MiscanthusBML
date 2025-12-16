@@ -166,10 +166,10 @@ void partitioning_coefficient_logistic::do_operation() const
     double kLeaf, kRoot, kShell, kStem, kRhizome, kGrain;
     double const leaf_strength{strength_term(alphaLeaf, betaLeaf, DVI)};
     double const root_strength{strength_term(alphaRoot, betaRoot, DVI)};
-    double const shell_strength{strength_term(alphaShell, betaShell, DVI)};
     double const stem_strength{strength_term(alphaStem, betaStem, DVI)};
     double const rhizome_strength{1};
     double const grain_strength{0}; /// Kc changed from 1 to 0
+    double const shell_strength{0};
     double const total_strength =
          leaf_strength + rhizome_strength + root_strength + shell_strength +
          stem_strength + grain_strength;
